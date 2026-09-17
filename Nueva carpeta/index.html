@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sergio Delgado | Contador Público</title>
+<meta name="description" content="Asesoramiento contable, impositivo y administrativo para personas, profesionales y empresas. Más de 35 años de experiencia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+  <div class="container header__inner">
+    <div class="brand">
+      <img src="img/logo-header.png" alt="Sergio Delgado — Contador Público" class="brand__logo">
+      <span class="brand__role">Contador Público</span>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#novedades">Novedades</a>
+    </nav>
+
+    <a class="btn btn--whatsapp" href="https://wa.me/5493810000000" target="_blank" rel="noopener">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.9 3.6 13.5 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.4-8.4 8.4z"/></svg>
+      WhatsApp
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero__media" aria-hidden="true">
+    <img src="img/hero-photo.jpg" alt="" onerror="this.style.display='none'">
+  </div>
+  <div class="hero__scrim"></div>
+  <div class="container hero__inner">
+    <h1 class="hero__title">
+      Contabilidad clara.<br>
+      <span class="accent">Decisiones seguras.</span>
+    </h1>
+    <p class="hero__subtitle">
+      Asesoramiento contable, impositivo y administrativo para personas,
+      profesionales y empresas.
+    </p>
+    <a class="btn btn--whatsapp" href="https://wa.me/5493810000000" target="_blank" rel="noopener">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.9 3.6 13.5 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.4-8.4 8.4z"/></svg>
+      Contactar por WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ===================== SOBRE MI ===================== -->
+<section class="section about" id="sobre-mi">
+  <div class="container about__grid">
+    <div class="about__left">
+      <p class="eyebrow">Sobre mí</p>
+      <h2 class="section-title">Más de 35 años de experiencia acompañando a mis clientes.</h2>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="stat__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          </div>
+          <div>
+            <div class="stat__num">+35</div>
+            <div class="stat__label">años de<br>experiencia</div>
+          </div>
+        </div>
+        <div class="stat">
+          <div class="stat__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20 7h-4V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a1 1 0 0 0-1 1v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a1 1 0 0 0-1-1zM10 5h4v2h-4V5z"/></svg>
+          </div>
+          <div>
+            <div class="stat__num">+2000</div>
+            <div class="stat__label">clientes<br>satisfechos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__right">
+      <p>Soy <strong>Sergio Delgado</strong>, contador público (M.P. 3357 – CGCET), y acompaño a personas, profesionales y empresas en la gestión de sus obligaciones contables, impositivas y administrativas.</p>
+      <p>Mi objetivo es brindar un asesoramiento claro y personalizado, adaptado a la realidad de cada cliente.</p>
+      <p>Te ayudo a mantener tus obligaciones al día, organizar tu información y contar con datos confiables para tomar mejores decisiones.</p>
+      <p>Un acompañamiento cercano y profesional para que puedas ocuparte de tu actividad con la tranquilidad de tener tus números en orden.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICIOS ===================== -->
+<section class="section services" id="servicios">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="section-title">Soluciones contables e impositivas</h2>
+      <p class="section-lead">Algunas de las soluciones contables e impositivas para personas, profesionales y empresas.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4V4zm2 4h12M8 12h8M8 16h5"/></svg>
+        </div>
+        <h3>Contabilidad</h3>
+        <ul>
+          <li>Balances</li>
+          <li>Estados contables</li>
+          <li>Informes</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="7" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M5 19L19 5"/></svg>
+        </div>
+        <h3>Impuestos</h3>
+        <ul>
+          <li>IVA</li>
+          <li>Ganancias</li>
+          <li>Bienes Personales</li>
+          <li>Monotributo</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 19c0-3.3 3.1-6 7-6s7 2.7 7 6M15 13.5c2.8.2 5 2.4 5 5.5"/></svg>
+        </div>
+        <h3>Sueldos</h3>
+        <ul>
+          <li>Liquidación de haberes</li>
+          <li>Cargas sociales</li>
+          <li>Altas y bajas</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg>
+        </div>
+        <h3>Sociedades</h3>
+        <ul>
+          <li>Constitución</li>
+          <li>Inscripciones</li>
+          <li>Asesoramiento societario</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19V9l5-3 5 3 6-3v13M9 6v13M14 9v10"/></svg>
+        </div>
+        <h3>Asesoramiento Financiero</h3>
+        <ul>
+          <li>Planificación fiscal</li>
+          <li>Análisis económico</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 7h6l2 2h10v10H3V7z"/></svg>
+        </div>
+        <h3>Trámites</h3>
+        <ul>
+          <li>AFIP/ARCA</li>
+          <li>DIM (habilitación de negocios y DDJJ)</li>
+          <li>Rentas provinciales</li>
+          <li>Certificaciones ante CGCET</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIOS ===================== -->
+<section class="section testimonials" id="testimonios">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Testimonios</p>
+      <h2 class="section-title">La confianza de mis clientes</h2>
+      <p class="section-lead">La confianza de los clientes es parte fundamental de este trabajo.</p>
+    </div>
+
+    <div class="carousel" id="carousel">
+      <button class="carousel__arrow carousel__arrow--prev" id="carouselPrev" aria-label="Testimonio anterior">
+        <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <div class="carousel__viewport">
+        <ul class="carousel__track" id="carouselTrack">
+          <li class="testimonial">
+            <span class="testimonial__quote" aria-hidden="true">&ldquo;</span>
+            <p>Sergio siempre me brinda respuestas claras y soluciones eficaces. Su acompañamiento es fundamental para mi trabajo.</p>
+            <footer>
+              <strong>María López</strong>
+              <span>Administradora</span>
+            </footer>
+          </li>
+          <li class="testimonial">
+            <span class="testimonial__quote" aria-hidden="true">&ldquo;</span>
+            <p>Encontramos en Sergio a un profesional que nos explica cada tema de manera clara y nos acompaña cuando necesitamos tomar decisiones. Nos da mucha tranquilidad tener nuestra contabilidad ordenada.</p>
+            <footer>
+              <strong>Pablo Pérez</strong>
+              <span>Comerciante</span>
+            </footer>
+          </li>
+          <li class="testimonial">
+            <span class="testimonial__quote" aria-hidden="true">&ldquo;</span>
+            <p>Desde que comenzamos a trabajar con Sergio tenemos mucho más orden y previsibilidad. Un profesional comprometido y siempre disponible.</p>
+            <footer>
+              <strong>Laura Gómez</strong>
+              <span>Profesional independiente</span>
+            </footer>
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel__arrow carousel__arrow--next" id="carouselNext" aria-label="Testimonio siguiente">
+        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+
+      <div class="carousel__dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== NOVEDADES ===================== -->
+<section class="section news" id="novedades">
+  <div class="container">
+    <div class="news__head">
+      <p class="eyebrow">Novedades</p>
+      <a href="#" class="link-arrow">Ver todas las novedades →</a>
+    </div>
+
+    <div class="news__grid">
+      <article class="news-card">
+        <div class="news-card__img"><img src="img/vencimientos.jpg" alt="" onerror="this.parentElement.style.background='#d9d3c7'"></div>
+        <p class="news-card__date">15 JUL 2026</p>
+        <h3>Vencimientos fiscales de mayo 2026</h3>
+        <p class="news-card__excerpt">Conocé las principales fechas de vencimiento y obligaciones del mes.</p>
+        <a href="#" class="link-arrow">Leer más →</a>
+      </article>
+
+      <article class="news-card">
+        <div class="news-card__img"><img src="img/escalas.jpg" alt="" onerror="this.parentElement.style.background='#d9d3c7'"></div>
+        <p class="news-card__date">02 JUL 2026</p>
+        <h3>Nuevas escalas de monotributo</h3>
+        <p class="news-card__excerpt">Enterate de los nuevos montos y categorías vigentes este mes.</p>
+        <a href="#" class="link-arrow">Leer más →</a>
+      </article>
+
+      <article class="news-card">
+        <div class="news-card__img"><img src="img/deducciones.jpg" alt="" onerror="this.parentElement.style.background='#d9d3c7'"></div>
+        <p class="news-card__date">20 JUL 2026</p>
+        <h3>Ganancias: deducciones para el período fiscal</h3>
+        <p class="news-card__excerpt">Repasamos las deducciones personales y cargas de familia actualizadas.</p>
+        <a href="#" class="link-arrow">Leer más →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACTO ===================== -->
+<section class="section contact" id="contacto">
+  <div class="container contact__panel">
+    <div class="contact__form-col">
+      <p class="eyebrow">Contactame</p>
+      <h2 class="section-title">¿Tenés una consulta contable o impositiva?</h2>
+      <p class="section-lead">Contame brevemente tu situación y me pongo en contacto con vos.</p>
+
+      <form id="contactForm" class="form" novalidate>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="nombre" class="sr-only">Nombre y apellido</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido" required>
+          </div>
+          <div class="form__field">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+        </div>
+
+        <div class="form__field">
+          <label for="telefono" class="sr-only">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+        </div>
+
+        <div class="form__field">
+          <label for="mensaje" class="sr-only">Contame tu consulta</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contame tu consulta" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--dark" id="formSubmit">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          Enviar mensaje
+        </button>
+
+        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="contact__art" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <g class="sunburst">
+          <line x1="200" y1="200" x2="200" y2="40"></line>
+          <line x1="200" y1="200" x2="200" y2="360"></line>
+          <line x1="200" y1="200" x2="40" y2="200"></line>
+          <line x1="200" y1="200" x2="360" y2="200"></line>
+          <line x1="200" y1="200" x2="313" y2="87"></line>
+          <line x1="200" y1="200" x2="87" y2="313"></line>
+          <line x1="200" y1="200" x2="313" y2="313"></line>
+          <line x1="200" y1="200" x2="87" y2="87"></line>
+        </g>
+        <path class="star star--big" d="M200 100 L215 170 L285 185 L215 200 L200 270 L185 200 L115 185 L185 170 Z"/>
+        <path class="star star--small" d="M120 270 L128 300 L158 308 L128 316 L120 346 L112 316 L82 308 L112 300 Z"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="brand brand--light">
+      <span class="brand__name">Sergio Delgado</span>
+      <span class="brand__role">Contador Público — M.P. 3357 (CGCET)</span>
+    </div>
+
+    <nav class="footer__nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#novedades">Novedades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="footer__social">
+  <!-- Enlace a Instagram -->
+  <a href="https://instagram.com/sergioedelgado/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+    <svg class="icon--outline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+    </svg>
+  </a>
+
+  <!-- Enlace a WhatsApp con tu número ya incluido -->
+  <a href="https://wa.me/5493814584903" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.9 3.6 13.5 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.4-8.4 8.4z"/></svg>
+  </a>
+</div>
+
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 Sergio Delgado. Todos los derechos reservados.</p>
+    <!-- <p>Desarrollado por xxxxx.com</p>  -->
+    
+
+  </div>
+</footer>
+
+<script src="js/carousel.js"></script>
+<script src="js/form.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
